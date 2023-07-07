@@ -22,3 +22,30 @@
 .item{
     margin-left: 10px ;
 }
+.banner-container{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    height: 100vh;
+    background-image: url("images/background.png"),
+    linear-gradient(45deg,rgb(8, 8, 8),#000);
+    color: white;
+    padding: 15px;
+}
+.btn{
+    background-color: red ;
+    padding: 10px;
+    color: white;
+    border: none;
+    
+}
+.title{
+    padding-bottom: 10px ;
+    font-size: 30PX ; 
+    font-style: bold;
+}
+.description{
+    font-size: 10px;
+   padding-bottom: 10PX ; 
+}
+    
